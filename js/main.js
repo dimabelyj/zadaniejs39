@@ -1,13 +1,13 @@
 let xz = [1, 2, 3, 4, 5];
-//let pr = fr.splice(myFunction);
+//let x = xz.splice(myFunction);
 
-function myFunction() {
-    let x = xz;
-    //fr[0] = 6;
-    //fr[1] = 7;
+function zmienElementy(x) {
+    //let x = xz;
+    //let xz[0] = 6;
+    //let xz[1] = 7;
     //return value * 2;
-    x.splice(2, 2, 6, 7);
-    //return fr;
-    //console.log(ja);
+    x.splice(0, 2, 6, 7);
+    return x;
 }
-console.log(myFunction(xz));
+//console.log(myFunction(tabl));
+console.log(zmienElementy(xz));
